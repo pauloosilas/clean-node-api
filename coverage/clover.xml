@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1687543660587" clover="3.2.0">
-  <project timestamp="1687543660587" name="All files">
-    <metrics statements="147" coveredstatements="90" conditionals="24" coveredconditionals="14" methods="19" coveredmethods="9" elements="190" coveredelements="113" complexity="0" loc="147" ncloc="147" packages="9" files="17" classes="17"/>
+<coverage generated="1687545363547" clover="3.2.0">
+  <project timestamp="1687545363547" name="All files">
+    <metrics statements="157" coveredstatements="90" conditionals="25" coveredconditionals="14" methods="20" coveredmethods="9" elements="202" coveredelements="113" complexity="0" loc="157" ncloc="157" packages="9" files="18" classes="18"/>
     <package name="data.protocols">
-      <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+      <metrics statements="9" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <file name="add-account-repository.ts" path="E:\Users\Paulo\Documents\Projetos\Node\clean-node-api\src\data\protocols\add-account-repository.ts">
+        <metrics statements="6" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
+        <line num="2" count="0" type="stmt"/>
+        <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
+        <line num="5" count="0" type="stmt"/>
+        <line num="6" count="0" type="stmt"/>
+      </file>
       <file name="encrypter.ts" path="E:\Users\Paulo\Documents\Projetos\Node\clean-node-api\src\data\protocols\encrypter.ts">
         <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
@@ -12,15 +21,16 @@
       </file>
     </package>
     <package name="data.usecases.add-account">
-      <metrics statements="16" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
+      <metrics statements="20" coveredstatements="0" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
       <file name="db-add-account-protocols.ts" path="E:\Users\Paulo\Documents\Projetos\Node\clean-node-api\src\data\usecases\add-account\db-add-account-protocols.ts">
-        <metrics statements="3" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="4" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
+        <line num="4" count="0" type="stmt"/>
       </file>
       <file name="db-add-account.ts" path="E:\Users\Paulo\Documents\Projetos\Node\clean-node-api\src\data\usecases\add-account\db-add-account.ts">
-        <metrics statements="13" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
+        <metrics statements="16" coveredstatements="0" conditionals="1" coveredconditionals="0" methods="1" coveredmethods="0"/>
         <line num="1" count="0" type="cond" truecount="0" falsecount="1"/>
         <line num="2" count="0" type="stmt"/>
         <line num="3" count="0" type="stmt"/>
@@ -34,6 +44,9 @@
         <line num="11" count="0" type="stmt"/>
         <line num="12" count="0" type="stmt"/>
         <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
       </file>
     </package>
     <package name="domain.models">
