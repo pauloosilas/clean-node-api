@@ -4,7 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --passWithNoTests --watchAll"    
+    "test": "jest --passWithNoTests --silent --no-cache --noStackTrace --runInBand",
+    "test:verbose": "jest --passWithNoTests" ,
+    "test:unit": "jest --passWithNoTests -c jest-unit-config.js",
+    "test:integration": "npm test -- --watch -c jest-integration-config.js",
+    "test:staged": "npm test -- --findRelatedTests",
+    "test:ci": "npm test -- --coverage",
+    "test:coveralls": "npm run test:ci && coveralls < coverage/lcov.info" 
   },
   "keywords": [],
   "author": "",
